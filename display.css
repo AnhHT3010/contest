@@ -1,0 +1,102 @@
+
+body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+.web{
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 900px;
+
+}
+.contain-prf{
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: 10px;
+    width: 30%;
+    height: 470px;
+    background-color: #fcfafa;
+    border:1px solid rgb(238, 231, 231);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(20, 17, 17, 0.19);
+}
+.contain-avatar{
+    padding-bottom: 4px;
+    height: 320px;
+    width: 100%;
+    background-image: url("http://dummyimage.com/200x300.png/5fa2dd/ffffff"); 
+    background-size: cover;
+}
+/* .contain-type{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    height: 30px;
+    width: 130px;
+    background-color: #92290B;
+    box-shadow: 2px 2px 3px 0px rgb(0 0 0 / 95%);
+    color: white;
+} */
+.contain-inf{
+    padding-bottom: 4px;
+    padding-left: 10%;
+}
+.contain-local{
+    padding-bottom: 4px;
+    display: flex;
+}
+.contain-name{
+    padding-bottom: 4px;
+    padding-top: 5%;
+    color: #0c0c0c;
+    font-weight: 900;
+}
+.contain-gender{
+    width: 49px;
+    height: 20px;
+    background-color: #007BFF;
+    padding: auto;
+    padding-left: 7px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.contain-country{
+    width: 53px;
+    height: 20px;
+    background-color: #28A745;
+    padding-left: 7px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+.contain-phoneNumber{
+    margin-left: 5px;
+    width: 90px;
+    height: 20px;
+    background-color: #17A2B8;
+    padding-left: 7px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+.contain-favorites{
+    display: flex;
+    width: 30%;
+    justify-self: center;
+    height: 20px;
+    margin-left: 20px;
+    background-color: #FFC107;
+    border-radius: 10px;
+    color: black;
+}
+hr{
+    color: rgb(7, 3, 3);
+    width: 90%;
+}
